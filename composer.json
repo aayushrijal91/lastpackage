@@ -1,5 +1,5 @@
 {
-    "name": "newfolddp/lastpackage",
+    "name": "lastpackage",
     "type": "whmcs-addons",
     "homepage": "https://github.com/aayushrijal91/lastpackage",
     "autoload": {
