@@ -1,0 +1,25 @@
+{
+    "name": "newfolddp/lastpackage",
+    "description": "Custom made composer package for testing purpose",
+    "keywords": ["lastpackage", "last", "mypackage", "package"],
+    "homepage": "https://github.com/aayushrijal91/lastpackage",
+    "autoload": {
+      "psr-4": {
+        "DN\\": "src"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "DN\\Db\\Tests\\": "Tests"
+      }
+    },
+    "authors": [
+        {
+            "name": "Aayush Rijal",
+            "email": "aayush.rijal@newfold.com"
+        }
+    ],
+    "require": {
+    }
+  }
+  
