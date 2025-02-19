@@ -20,7 +20,8 @@
     "extra": {
       "installer-types": ["whmcs-addons"],
       "installer-paths": {
-        "modules/addons/lastpackage/": ["newfolddp/lastpackage"]
-      }
+        "modules/addons/${name}/": ["newfolddp/lastpackage"]
+      },
+      "installer-name": "lastpackage"
     }
   }
