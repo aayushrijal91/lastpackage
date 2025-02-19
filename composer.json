@@ -5,11 +5,6 @@
     "homepage": "https://github.com/aayushrijal91/lastpackage",
     "autoload": {
       "psr-4": {
-        "DN\\": "src"
-      }
-    },
-    "autoload-dev": {
-      "psr-4": {
         "NewfoldDp\\LastPackage\\": "src/"
       }
     },
