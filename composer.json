@@ -10,7 +10,7 @@
     },
     "autoload-dev": {
       "psr-4": {
-        "DN\\Db\\Tests\\": "Tests"
+        "NewfoldDp\\LastPackage\\": "src/"
       }
     },
     "authors": [
