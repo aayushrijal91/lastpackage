@@ -1,7 +1,6 @@
 {
     "name": "newfolddp/lastpackage",
-    "description": "Custom made composer package for testing purpose",
-    "keywords": ["lastpackage", "last", "mypackage", "package"],
+    "type": "whmcs-addons",
     "homepage": "https://github.com/aayushrijal91/lastpackage",
     "autoload": {
       "psr-4": {
@@ -15,11 +14,13 @@
         }
     ],
     "require": {
+        "composer/installers": "^2.3",
+        "oomphinc/composer-installers-extender": "^2.0"
     },
     "extra": {
+      "installer-types": ["whmcs-addons"],
       "installer-paths": {
-        "modules/addons/{$name}/": ["type:whmcs-addon"]
+        "modules/addons/{$name}/": ["newfolddp/lastpackage"]
       }
     }
   }
-  
