@@ -16,11 +16,5 @@
   "require": {
       "composer/installers": "^2.3",
       "oomphinc/composer-installers-extender": "^2.0"
-  },
-  "extra": {
-    "installer-types": ["whmcs-addons"],
-    "installer-paths": {
-      "modules/addons/lastpackage/": ["vendor/newfolddp/lastpackage", "newfolddp/lastpackage"]
-    }
   }
 }
