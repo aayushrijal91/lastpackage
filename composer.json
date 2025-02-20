@@ -20,7 +20,7 @@
     "extra": {
       "installer-types": ["addon"],
       "installer-paths": {
-        "modules/addons/${name}/": ["type:addon"]
+        "modules/addons/${name}/": ["newfolddp/lastpackage"]
       },
       "installer-name": "lastpackage"
     }
