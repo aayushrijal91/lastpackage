@@ -1,27 +1,26 @@
 {
-    "name": "newfolddp/lastpackage",
-    "type": "whmcs-addons",
-    "homepage": "https://github.com/aayushrijal91/lastpackage",
-    "autoload": {
+  "name": "newfolddp/lastpackage",
+  "type": "whmcs-addon",
+  "homepage": "https://github.com/aayushrijal91/lastpackage",
+  "autoload": {
       "psr-4": {
-        "NewfoldDp\\LastPackage\\": "src/"
+          "NewfoldDp\\LastPackage\\": "src/"
       }
-    },
-    "authors": [
-        {
-            "name": "Aayush Rijal",
-            "email": "aayush.rijal@newfold.com"
-        }
-    ],
-    "require": {
-        "composer/installers": "^2.3",
-        "oomphinc/composer-installers-extender": "^2.0"
-    },
-    "extra": {
-      "installer-types": ["whmcs-addons"],
-      "installer-paths": {
-        "modules/addons/${name}/": ["newfolddp/lastpackage"]
-      },
-      "installer-name": "lastpackage"
+  },
+  "authors": [
+      {
+          "name": "Aayush Rijal",
+          "email": "aayush.rijal@newfold.com"
+      }
+  ],
+  "require": {
+      "composer/installers": "^2.3",
+      "oomphinc/composer-installers-extender": "^2.0"
+  },
+  "extra": {
+    "installer-types": ["whmcs-addon"],
+    "installer-paths": {
+      "modules/addons/lastpackage/": ["newfolddp/lastpackage"]
     }
+  }
 }
