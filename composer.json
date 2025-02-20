@@ -1,6 +1,5 @@
 {
     "name": "newfolddp/lastpackage",
-    "type": "whmcs-addons",
     "homepage": "https://github.com/aayushrijal91/lastpackage",
     "autoload": {
       "psr-4": {
@@ -14,13 +13,11 @@
         }
     ],
     "require": {
-        "composer/installers": "^2.3",
-        "oomphinc/composer-installers-extender": "^2.0"
+        "composer/installers": "^2.3"
     },
     "extra": {
-      "installer-types": ["whmcs-addons"],
       "installer-paths": {
-        "modules/addons/${name}/": ["lastpackage"]
+        "modules/addons/lastpackage/": ["newfolddp/lastpackage"]
       },
       "installer-name": "lastpackage"
     }
