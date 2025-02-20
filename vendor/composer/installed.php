@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'newfolddp/lastpackage',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'f6ce5a84dab5b15ce81d06715f811185679d0ff0',
+        'type' => 'whmcs-addon',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'composer/installers' => array(
+            'pretty_version' => 'v2.3.0',
+            'version' => '2.3.0.0',
+            'reference' => '12fb2dfe5e16183de69e784a7b84046c43d97e8e',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/./installers',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'newfolddp/lastpackage' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'f6ce5a84dab5b15ce81d06715f811185679d0ff0',
+            'type' => 'whmcs-addon',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'oomphinc/composer-installers-extender' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'reference' => 'cbf4b6f9a24153b785d09eee755b995ba87bd5f9',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../oomphinc/composer-installers-extender',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
