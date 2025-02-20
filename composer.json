@@ -23,11 +23,5 @@
         "modules/addons/lastpackage/": ["newfolddp/lastpackage"]
       },
       "installer-name": "lastpackage"
-    },
-    "config": {
-        "allow-plugins": {
-            "composer/installers": true,
-            "oomphinc/composer-installers-extender": true
-        }
     }
 }
