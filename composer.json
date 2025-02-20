@@ -1,6 +1,6 @@
 {
   "name": "newfolddp/lastpackage",
-  "type": "whmcs-addons",
+  "type": "addons",
   "homepage": "https://github.com/aayushrijal91/lastpackage",
   "autoload": {
       "psr-4": {
