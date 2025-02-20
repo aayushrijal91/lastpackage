@@ -1,6 +1,6 @@
 {
     "name": "newfolddp/lastpackage",
-    "type": "addons",
+    "type": "whmcs-addons",
     "homepage": "https://github.com/aayushrijal91/lastpackage",
     "autoload": {
       "psr-4": {
@@ -18,9 +18,9 @@
         "oomphinc/composer-installers-extender": "^2.0"
     },
     "extra": {
-      "installer-types": ["addons"],
+      "installer-types": ["whmcs-addons"],
       "installer-paths": {
-        "modules/addons/lastpackage/": ["newfolddp/lastpackage"]
+        "modules/addons/lastpackage/": ["lastpackage"]
       },
       "installer-name": "lastpackage"
     }
