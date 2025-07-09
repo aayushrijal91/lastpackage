@@ -1,5 +1,5 @@
 Change Log
 ==========
 
-## Version 0.0.0
-* 
+## Version 1.0.1
+* New version for my first edit
